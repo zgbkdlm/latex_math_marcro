@@ -1,0 +1,57 @@
+%%% Some of them are pirate from Toni Karvonon :)
+
+\usepackage{amsmath,amsthm,amssymb,amsfonts,color,bm}
+\usepackage[pdftex]{graphicx}
+\usepackage{cite}
+\newcommand{\cu}[1]{\mathbf{#1}}
+\newcommand{\tash}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\tashh}[2]{\frac{\partial^2 #1}{\partial {#2}^2}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\easytwo}[2]{\begin{bmatrix}
+		#1\\ 
+		#2
+\end{bmatrix}}
+\newcommand{\easyfour}[4]{\begin{bmatrix}
+		#1& #2\\ 
+		#3& #4
+\end{bmatrix}}
+\newcommand{\easynine}[9]{\begin{bmatrix}
+		#1& #2& #3\\ 
+		#4& #5& #6\\
+		#7& #8& #9
+\newcommand{\fastmatrix}[1]{\begin{pmatrix}#1\end{pmatrix}}
+
+%%% Functions
+
+\DeclareMathOperator*{\argmin}{arg\,min}  % Argmin
+\DeclareMathOperator*{\argmax}{arg\,max}  % Argmax
+
+\DeclareMathOperator\erf{erf} % Standard error function
+
+%%% Probability
+
+\newcommand{\expec}{\mathbb{E}}           % Expectation
+\newcommand{\cov}{\operatorname{Cov}}     % Covariance
+\newcommand{\var}{\operatorname{Var}}     % Variance
+\newcommand{\gauss}{\mathcal{N}}          % Gaussian distribution
+
+%%% Number sets
+
+\newcommand{\R}{\mathbb{R}} % Set of real numbers
+\newcommand{\Q}{\mathbb{Q}} % Set of rational numbers
+\newcommand{\N}{\mathbb{N}} % Set of natural numbers
+\newcommand{\Z}{\mathbb{Z}} % Set of integers
+
+%%% Standard constants and objects
+\DeclareMathOperator{\neper}{e} % Exponential constant
+
+%% Linear algebra operations
+\newcommand{\transpose}{\mathsf{T}}         % Transpose of a matrix
+\newcommand{\trace}{\operatorname{tr}}      % Matrix trace
+\newcommand{\adj}{\operatorname{adj}}       % Matrix adjugate
+\newcommand{\diag}{\operatorname{diag}}     % Diagonal matrix
+\newcommand{\rank}{\operatorname{rank}}     % rank of a matrix
+\newcommand{\Hess}{\operatorname{Hess}}     % Hessian matrix
+\newcommand{\lspan}{\operatorname{span}}    % linear span
+\newcommand{\mineig}{\lambda_{\text{min}}}  % Minimal eigenvalue
+\newcommand{\maxeig}{\lambda_{\text{max}}}  % Maximal eigenvalue
